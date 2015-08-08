@@ -13,7 +13,7 @@ describe('#formatServerAddress', function () {
     it('should correctly format IPV4 addresses', function () {
         var result = formatServerAddress({
             address: '127.0.0.1',
-            family: 'IPV4',
+            family: 'IPv4',
             port: 80,
         });
 
@@ -23,7 +23,7 @@ describe('#formatServerAddress', function () {
     it('should correctly format IPV6 addresses', function () {
         var result = formatServerAddress({
             address: '::',
-            family: 'IPV6',
+            family: 'IPv6',
             port: 443,
         });
 
