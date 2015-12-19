@@ -11,8 +11,8 @@ Formats a server address.
 
 ## Usage
 ```javascript
-var formatServerAddress = require('@rdcl/format-server-address');
-var formatted = formatServerAddress(server.address());
+const formatServerAddress = require('@rdcl/format-server-address')
+const formatted = formatServerAddress(server.address())
 ```
 
 ## Tests

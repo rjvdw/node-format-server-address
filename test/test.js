@@ -1,7 +1,7 @@
 'use strict'
 
-var expect = require('chai').expect
-var formatServerAddress = require('..')
+const expect = require('chai').expect
+const formatServerAddress = require('..')
 
 describe('#formatServerAddress', function () {
   it('should throw a TypeError if an invalid argument is passed', function () {
